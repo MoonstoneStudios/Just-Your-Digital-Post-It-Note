@@ -16,6 +16,8 @@ Like a post-it note but on your computer!
 ![Here is an example](DigitalPostIt/notes.gif)
 
 ## Changelog:
+[v1.0.1](Releases/v1.0.1/README.md)
+
 [v1.0.0](Releases/v1.0.0/README.md)
 
 
