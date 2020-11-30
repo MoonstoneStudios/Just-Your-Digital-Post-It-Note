@@ -10,6 +10,9 @@ Like a post-it note but on your computer!
 6. To remove the **current** note click the red `-` button
 7: Click the tabs to switch notes.
 
+### Example
+![Here is an example](DigitalPostIt/notes.gif)
+
 ### Tip: Everything is saved automatically!
 
 ## Changelog:
