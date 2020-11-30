@@ -17,3 +17,9 @@ Like a post-it note but on your computer!
 
 ## Changelog:
 [v1.0.0](Releases/v1.0.0/README.md)
+
+
+## Upcoming Features (these are ideas, they may not happen)
+- Font selection
+- Font color
+- markup
