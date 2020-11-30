@@ -11,3 +11,6 @@ Like a post-it note but on your computer!
 7: Click the tabs to switch notes.
 
 ### Tip: Everything is saved automatically!
+
+## Changelog:
+[v1.0.0](Releases/v1.0.0/README.md)
