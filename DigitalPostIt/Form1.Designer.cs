@@ -47,7 +47,7 @@
             // notes
             // 
             this.notes.Controls.Add(this.tabPage1);
-            this.notes.Font = new System.Drawing.Font("Sniglet", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.notes.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.notes.Location = new System.Drawing.Point(-2, -1);
             this.notes.Multiline = true;
             this.notes.Name = "notes";
@@ -65,10 +65,10 @@
             this.tabPage1.Controls.Add(this.noteContent);
             this.tabPage1.Controls.Add(this.title);
             this.tabPage1.Font = new System.Drawing.Font("Sniglet", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage1.Location = new System.Drawing.Point(4, 27);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(834, 692);
+            this.tabPage1.Size = new System.Drawing.Size(834, 690);
             this.tabPage1.TabIndex = 15;
             this.tabPage1.Text = "New Note";
             // 
@@ -77,7 +77,7 @@
             this.removeNote.BackColor = System.Drawing.Color.Red;
             this.removeNote.FlatAppearance.BorderSize = 0;
             this.removeNote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.removeNote.Font = new System.Drawing.Font("Sniglet", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.removeNote.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.removeNote.ForeColor = System.Drawing.SystemColors.Control;
             this.removeNote.Location = new System.Drawing.Point(775, 17);
             this.removeNote.Name = "removeNote";
@@ -92,7 +92,7 @@
             this.addNote.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.addNote.FlatAppearance.BorderSize = 0;
             this.addNote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addNote.Font = new System.Drawing.Font("Sniglet", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addNote.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addNote.Location = new System.Drawing.Point(706, 17);
             this.addNote.Name = "addNote";
             this.addNote.Size = new System.Drawing.Size(53, 49);
@@ -104,9 +104,10 @@
             // colorLabel
             // 
             this.colorLabel.AutoSize = true;
-            this.colorLabel.Location = new System.Drawing.Point(603, 31);
+            this.colorLabel.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colorLabel.Location = new System.Drawing.Point(601, 29);
             this.colorLabel.Name = "colorLabel";
-            this.colorLabel.Size = new System.Drawing.Size(48, 20);
+            this.colorLabel.Size = new System.Drawing.Size(52, 23);
             this.colorLabel.TabIndex = 3;
             this.colorLabel.Text = "color:";
             // 
@@ -128,7 +129,7 @@
             this.noteContent.AcceptsTab = true;
             this.noteContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.noteContent.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.noteContent.Font = new System.Drawing.Font("Sniglet", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noteContent.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noteContent.Location = new System.Drawing.Point(15, 102);
             this.noteContent.Multiline = true;
             this.noteContent.Name = "noteContent";
@@ -144,10 +145,10 @@
             // 
             this.title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.title.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.title.Font = new System.Drawing.Font("Sniglet", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.Font = new System.Drawing.Font("Comic Sans MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.Location = new System.Drawing.Point(16, 17);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(394, 60);
+            this.title.Size = new System.Drawing.Size(394, 67);
             this.title.TabIndex = 0;
             this.title.Text = "New Note";
             this.clickToType.SetToolTip(this.title, "Click To Start Typing");

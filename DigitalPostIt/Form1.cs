@@ -53,7 +53,7 @@ namespace DigitalPostIt
             newTitle.BackColor = data.color;
             newTitle.Text = data.title;
             newTitle.BorderStyle = BorderStyle.None;
-            newTitle.Font = new Font("Sniglet", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            newTitle.Font = new Font("Comic Sans MS", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             newTitle.Location = new Point(16, 17);
             newTitle.Size = new Size(394, 60);
             newTitle.TabIndex = 0;
@@ -70,7 +70,7 @@ namespace DigitalPostIt
             newBox.AcceptsTab = true;
             newBox.BackColor = data.color;
             newBox.BorderStyle = BorderStyle.None;
-            newBox.Font = new Font("Sniglet", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            newBox.Font = new Font("Comic Sans MS", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             newBox.Location = new Point(15, 102);
             newBox.Multiline = true;
             newBox.Size = new Size(809, 581);
@@ -92,7 +92,7 @@ namespace DigitalPostIt
             button.BackColor = Color.FromArgb(128, 255, 128);
             button.FlatAppearance.BorderSize = 0;
             button.FlatStyle = FlatStyle.Flat;
-            button.Font = new Font("Sniglet", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button.Font = new Font("Comic Sans MS", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button.Location = new Point(706, 17);
             button.Size = new Size(53, 49);
             button.TabIndex = 4;
@@ -110,7 +110,7 @@ namespace DigitalPostIt
             button.BackColor = Color.Red;
             button.FlatAppearance.BorderSize = 0;
             button.FlatStyle = FlatStyle.Flat;
-            button.Font = new Font("Sniglet", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button.Font = new Font("Comic Sans MS", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button.ForeColor = SystemColors.Control;
             button.Location = new Point(775, 17);
             button.Size = new Size(53, 49);
@@ -147,6 +147,7 @@ namespace DigitalPostIt
             label.Name = "colorLabel";
             label.Size = new Size(48, 20);
             label.TabIndex = 3;
+            colorLabel.Font = new Font("Comic Sans MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label.Text = "color:";
             return label;
         }
