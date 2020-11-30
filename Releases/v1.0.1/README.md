@@ -1,4 +1,4 @@
-# v1.0.0 Changelog
+# v1.0.1 Changelog
 
 ## 11/30/2020
 
